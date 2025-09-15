@@ -16,11 +16,40 @@ const EventPlanner = () => {
                 </p>
                 {/* Call-to-action button */}
                 <button className="get-started-button">Get Started</button>
-                <p className="additional-info">Sign up now to unlock exclusive features!</p>
+                <p className="additional-info">Sign up now to unlock exclusive features!1</p>
             </section>
             {/* Section to list or categorize different types of events */}
             <section className="events_categories">
-                {/* Event categories content goes here */}
+                {/* Social event types */}
+                <ul>
+                    <h2>Social Events:</h2>
+                    <li>Birthday parties</li>
+                    <li>Anniversary celebrations</li>
+                    <li>Wedding receptions</li>
+                    <li>Baby showerss</li>
+                    <li>Graduation parties</li>
+                    <li>Family reunions</li>
+                </ul>
+                {/* Entertainment-based event types */}
+                <ul>
+                    <h2>Entertainment Events:</h2>
+                    <li>Concerts</li>
+                    <li>Music festivals</li>
+                    <li>Film screenings</li>
+                    <li>Comedy shows</li>
+                    <li>Art exhibitions</li>
+                    <li>Cultural events</li>
+                </ul>
+                {/* Community-focused event types */}
+                <ul>
+                    <h2>Community Events:</h2>
+                    <li>Fundraising events</li>
+                    <li>Charity galas</li>
+                    <li>Volunteer drives</li>
+                    <li>Neighborhood block parties</li>
+                    <li>Community festivals</li>
+                    <li>Cultural celebrations</li>
+                </ul>
             </section>
             {/* Section to highlight app features or functionalities */}
             <section className="features">
